@@ -69,3 +69,18 @@
 .enabled-button {
   background-color: #0040FF;
 }
+
+
+/*section image-profile*/
+.container-flex-column {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* padding: 2em; */
+}
+.img {
+  width:100%;
+  max-width:200px;
+  margin: auto;
+  display: block;
+}
