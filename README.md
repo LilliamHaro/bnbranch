@@ -5,9 +5,9 @@
 ## RED SOCIAL DE BUSINESS
 
 Esta plataforma está orientado hacia los negocios. BN branch es la plataforma perfecta para el modelo de negocio B2B (Business to Business).
-En esta plataforma puedes crear grupos de debate o participar en los que ya existen, conocer empresas y gente de tu mismo vertical para crear alianzas o bien, tener contacto con clientes potenciales.
+En esta plataforma puedes conocer empresas y gente de tu mismo vertical para crear alianzas o bien, tener contacto con clientes potenciales, informarte con datos actualizados de las principales organizaciones de business.
 
-==========================================================================================================
+=========================================================================================
 
 1. **Objetivo General del proyecto:**
    - *Desarrollar una Red Social exitosa* (A solicitud de un emprendedor visionario, quien no describe el tipo de red social que desea lanzar al mercado).
@@ -22,8 +22,11 @@ En esta plataforma puedes crear grupos de debate o participar en los que ya exis
      Lluvia de ideas.
      Encuestas a usuarios.
      Decisión del tipo de RS en base al mayor número de preferencia.(Red Social de Business)
+
      ![LOGO](assets/images/encuesta.png)
-     ![LOGO](assets/images/grafico-rango_de_edades.png)![LOGO](assets/images/grafico-sexo.png)![LOGO](assets/images/grafico-opciones-redes-sociales.png)
+     ![LOGO](assets/images/grafico-rango_de_edades.png)
+     ![LOGO](assets/images/grafico-sexo.png)
+     ![LOGO](assets/images/grafico-opciones-redes-sociales.png)
 
    **Etapa de implementación:**
    - *Objetivo:* Desarrollar la Red Social de Business, teniendo en cuenta el producto mínimo viable solicitado.
