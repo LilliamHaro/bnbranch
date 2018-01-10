@@ -14,6 +14,8 @@
 </head>
 
 <body>
+ 
+
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -96,6 +98,7 @@
       </div>
     </div>
   </section>
+  <h1 id="holaMundo"> </h1>
 
   <div class="container">
     <!-- Modal -->
@@ -142,7 +145,26 @@
       </div>
     </div>
   </div>
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyA-_BSIvCCYkJH54HtQXqWRoUBbjb0vrQ8",
+      authDomain: "red-social-3dfa9.firebaseapp.com",
+      databaseURL: "https://red-social-3dfa9.firebaseio.com",
+      projectId: "red-social-3dfa9",
+      storageBucket: "red-social-3dfa9.appspot.com",
+      messagingSenderId: "605326029631"
+    };
+    firebase.initializeApp(config);
+    
+    var holaMundo = document.getElementById('holaMundo');
+    var dbRef = firebase.database().ref().child('text');
+    dbRef.on('value', snap => holaMundo.innerText = snap.val() );
 
+  </script>
 
 
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
