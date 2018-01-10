@@ -7,7 +7,7 @@
 Esta plataforma está orientado hacia los negocios. BN branch es la plataforma perfecta para el modelo de negocio B2B (Business to Business).
 En esta plataforma puedes conocer empresas y gente de tu mismo vertical para crear alianzas o bien, tener contacto con clientes potenciales, informarte con datos actualizados de las principales organizaciones de business.
 
-=========================================================================================
+=================================================================================
 
 1. **Objetivo General del proyecto:**
    - *Desarrollar una Red Social exitosa* (A solicitud de un emprendedor visionario, quien no describe el tipo de red social que desea lanzar al mercado).
@@ -42,7 +42,6 @@ En esta plataforma puedes conocer empresas y gente de tu mismo vertical para cre
      Lluvia de ideas.
      Maquetado y funcionalidad.
      Base de datos con firebase.
-    ![LOGO](assets/images/encuesta.png)
 
     **Etapa de entrega:**
    - *Objetivo:* Vender el producto final a los potenciales usuarios, a través de una presentación.
