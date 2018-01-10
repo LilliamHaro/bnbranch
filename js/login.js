@@ -1,9 +1,11 @@
 
 // desabilitando y ocultando botones y secciones antes de que cargue completamente la página
 $('#login-text').hide();
+$('#div-name').hide();
 $('#signup-button').hide();
 $('#signup-button').prop('disabled', true);
 $('#login-button').prop('disabled', true);
+
 
 $(document).ready(function() {
   // Inicializando firebase
@@ -63,6 +65,7 @@ $(document).ready(function() {
     $('#signup-text').hide();
     $('#signup-button').show();
     $('#login-text').show();
+    $('#div-name').show();
   });
 
   $('#login-enter').on('click', function() {
@@ -70,6 +73,7 @@ $(document).ready(function() {
     $('#signup-text').show();
     $('#signup-button').hide();
     $('#login-text').hide();
+    $('#div-name').hide();
   });
 
   // registrando un usuario nuevo en la base de datos
@@ -106,10 +110,9 @@ $(document).ready(function() {
   firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
-      var email = user.email;
-      var emailVerified = user.emailVerified;
-      console.log(email);
       window.location.href = '../views/feed.html';
+      var email = user.email;
+      // $('#nombre').text(email)
     } else {
       console.log('usuario no logeado');
     }
